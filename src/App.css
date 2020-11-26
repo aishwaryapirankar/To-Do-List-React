@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+ol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+input,button{
+  padding: 5px;
+  margin: 5px;
+}
+
+#root{
+  border: 2px #3F51B5 solid;
+  width: 100vh;
+  font-family: 'Lobster', cursive;
+}
+
+body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2.5%;
+}
+
+#space{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dbutton{
+  margin-right: 20px;
+  margin-left: 30px;
+}
